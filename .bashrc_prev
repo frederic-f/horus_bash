@@ -1,0 +1,19 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+export devsh="/home/pv1/Documents/cloudera/devsh/training_materials/devsh"
+echo "devsh"
+export devdata="/home/pv1/Documents/cloudera/devsh/training_materials/devsh/data"
+echo "devdata"
+export scripts="/home/pv1/Documents/scripts"
+echo "scripts"
+export streamingLogs=$devsh"/exercises/streaming-dstreams/streaminglogs_project" 
+echo streamingLogs
